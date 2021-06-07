@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/defaultFragment">
+
+    <fragment
+        android:id="@+id/defaultFragment"
+        android:name="ke.co.academicplanner.ui.fragments.DefaultFragment"
+        android:label="@string/app_title"
+        tools:layout="@layout/fragment_default">
+        <action
+            android:id="@+id/action_view_deadline_summary"
+            app:destination="@id/deadlineSummaryFragment" />
+        <action
+            android:id="@+id/action_email_tutor"
+            app:destination="@id/emailTutorFragment" />
+        <action
+            android:id="@+id/action_view_grade_calculator"
+            app:destination="@id/gradeCalculatorFragment" />
+        <action
+            android:id="@+id/action_view_academic_calendar"
+            app:destination="@id/academicCalendarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/academicCalendarFragment"
+        android:name="ke.co.academicplanner.ui.fragments.AcademicCalendarFragment"
+        android:label="@string/academic_calender_text"
+        tools:layout="@layout/fragment_academic_calendar" />
+    <fragment
+        android:id="@+id/deadlineSummaryFragment"
+        android:name="ke.co.academicplanner.ui.fragments.DeadlineSummaryFragment"
+        android:label="@string/deadline_summary_text"
+        tools:layout="@layout/fragment_deadline_summary" />
+    <fragment
+        android:id="@+id/gradeCalculatorFragment"
+        android:name="ke.co.academicplanner.ui.fragments.GradeCalculatorFragment"
+        android:label="@string/grade_calculator_text"
+        tools:layout="@layout/fragment_grade_calculator">
+        <action
+            android:id="@+id/action_gradeCalculatorFragment_to_addUnitFragment"
+            app:destination="@id/addUnitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/emailTutorFragment"
+        android:name="ke.co.academicplanner.ui.fragments.EmailTutorFragment"
+        android:label="@string/email_tutor_text"
+        tools:layout="@layout/fragment_email_tutor" />
+    <fragment
+        android:id="@+id/addUnitFragment"
+        android:name="ke.co.academicplanner.ui.fragments.AddUnitFragment"
+        android:label="@string/add_unit_text"
+        tools:layout="@layout/fragment_add_unit">
+        <action
+            android:id="@+id/action_addUnitFragment_to_gradeCalculatorFragment"
+            app:destination="@id/gradeCalculatorFragment" />
+    </fragment>
+</navigation>

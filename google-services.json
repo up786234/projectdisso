@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "976816947388",
+    "project_id": "academicplanner-9f675",
+    "storage_bucket": "academicplanner-9f675.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976816947388:android:d88d8bee4255f374c350b9",
+        "android_client_info": {
+          "package_name": "ke.co.academicplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976816947388-1pnc74cf687h8dhkcd137b6o8r5b755h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcwbLpKJzWTYTt7Wq4RIkjHRUqYAqqcHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976816947388-1pnc74cf687h8dhkcd137b6o8r5b755h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="std_inset">16dp</dimen>
+    <dimen name="auth_image_size">96dp</dimen>
+</resources>

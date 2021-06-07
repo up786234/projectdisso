@@ -1,0 +1,20 @@
+ke/co/academicplanner/databinding/ActivityLoginBinding.java
+ ke.co.academicplanner.databinding.ActivityLoginBinding
+ke/co/academicplanner/databinding/FragmentDeadlineSummaryBinding.java
+ ke.co.academicplanner.databinding.FragmentDeadlineSummaryBinding
+ke/co/academicplanner/BuildConfig.java
+ ke.co.academicplanner.BuildConfig
+ke/co/academicplanner/databinding/ScoreItemBinding.java
+ ke.co.academicplanner.databinding.ScoreItemBinding
+ke/co/academicplanner/databinding/FragmentEmailTutorBinding.java
+ ke.co.academicplanner.databinding.FragmentEmailTutorBinding
+ke/co/academicplanner/databinding/FragmentAcademicCalendarBinding.java
+ ke.co.academicplanner.databinding.FragmentAcademicCalendarBinding
+ke/co/academicplanner/databinding/ActivityRegisterBinding.java
+ ke.co.academicplanner.databinding.ActivityRegisterBinding
+ke/co/academicplanner/databinding/FragmentAddUnitBinding.java
+ ke.co.academicplanner.databinding.FragmentAddUnitBinding
+ke/co/academicplanner/databinding/FragmentDefaultBinding.java
+ ke.co.academicplanner.databinding.FragmentDefaultBinding
+ke/co/academicplanner/databinding/FragmentGradeCalculatorBinding.java
+ ke.co.academicplanner.databinding.FragmentGradeCalculatorBinding
